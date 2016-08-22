@@ -6,8 +6,3 @@ Homestead.json
 .idea/
 /bower_components
 npm-debug.log
-public/storage
-public/views
-public/js
-public/css
-public/build
