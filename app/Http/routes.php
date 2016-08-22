@@ -17,7 +17,8 @@ Route::group(['middleware' => ['web']], function () {
 
 	Route::get('/unsupported-browser', 'AngularController@unsupported');
 
-	Route::get('/rooms', 'AngularController@rooms');
+
+	
 
 });
 

@@ -14,8 +14,5 @@ class AngularController extends Controller
         return view('unsupported_browser');
     }
 
-    public function rooms()
-    {
-        return view('rooms');
-    }
+
 }
