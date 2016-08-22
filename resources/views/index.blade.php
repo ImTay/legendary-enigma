@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{!! elixir('css/app.css') !!}">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
-    <title>1Laravel Angular Material Starter</title>
+    <title>asdf</title>
 
     <!--[if lte IE 10]>
     <script type="text/javascript">document.location.href = '/unsupported-browser'</script>
@@ -24,6 +24,10 @@
     <script src="{!! elixir('js/vendor.js') !!}"></script>
     <script src="{!! elixir('js/partials.js') !!}"></script>
     <script src="{!! elixir('js/app.js') !!}"></script>
+    <script src="{!! elixir('js/jquery.min.js') !!}"></script>
+    <script src="{!! elixir('js/materialize.min.js') !!}"></script>
+    <script src="{!! elixir('js/init.js') !!}"></script>
+    <script src="{!! elixir('js/smooth-scroll.js') !!}"></script>
 
     {{--livereload--}}
     @if ( env('APP_ENV') === 'local' )
