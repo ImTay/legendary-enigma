@@ -84,6 +84,22 @@ export function RoutesConfig($stateProvider, $urlRouterProvider) {
                     templateUrl: getView('about')
                 }
             }
+        })
+        .state('app.contact', {
+            url: '/contact',
+            views: {
+                'main@': {
+                    templateUrl: getView('contact')
+                }
+            }
+        })
+        .state('app.activities', {
+            url: '/activities',
+            views: {
+                'main@': {
+                    templateUrl: getView('activities')
+                }
+            }
         });
         
 }

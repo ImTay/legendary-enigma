@@ -29,6 +29,7 @@ elixir(function(mix) {
             'public/js/smooth-scroll.js',
             'public/css/vendor.css',
             'public/css/app.css',
+            'public/css/unslider.min.css',
             'public/css/materialize.css'
         ],
         karmaJsDir = [
