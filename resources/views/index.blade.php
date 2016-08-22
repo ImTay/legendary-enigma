@@ -27,6 +27,7 @@
     <script src="{!! elixir('js/app.js') !!}"></script>
     <script src="{!! elixir('js/jquery.min.js') !!}"></script>
     <script src="{!! elixir('js/materialize.min.js') !!}"></script>
+    <script src="{!! elixir('js/unslider-min.js') !!}"></script>
     <script src="{!! elixir('js/init.js') !!}"></script>
     <script src="{!! elixir('js/smooth-scroll.js') !!}"></script>
 

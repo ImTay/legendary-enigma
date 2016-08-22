@@ -23,6 +23,7 @@ elixir(function(mix) {
             'public/js/partials.js',
             'public/js/app.js',
             'public/js/jquery.min.js',
+            'public/js/unslider-min.js',
             'public/js/materialize.min.js',
             'public/js/init.js',
             'public/js/smooth-scroll.js',

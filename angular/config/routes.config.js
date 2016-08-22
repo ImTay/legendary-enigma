@@ -61,14 +61,6 @@ export function RoutesConfig($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-        .state('app.about', {
-            url: '/about',
-            views: {
-                'main@': {
-                    templateUrl: getView('about')
-                }
-            }
-        })
         .state('app.book', {
             url: '/book',
             views: {
@@ -82,6 +74,14 @@ export function RoutesConfig($stateProvider, $urlRouterProvider) {
             views: {
                 'main@': {
                     templateUrl: getView('rooms')
+                }
+            }
+        })
+        .state('app.about', {
+            url: '/about',
+            views: {
+                'main@': {
+                    templateUrl: getView('about')
                 }
             }
         });
